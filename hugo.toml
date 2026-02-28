@@ -1,0 +1,48 @@
+baseURL = "https://reports.localai.io/"
+languageCode = "en-us"
+title = "Reports"
+theme = "hugo-xterm"
+
+[pagination]
+  pagerSize = 10
+
+[params]
+  centerTheme = true
+  showMenuItems = true
+  showBreadCrumbs = true
+  toc = true
+  copyrightUserUrl = "https://github.com/mudler"
+  copyrightUserText = "mudler"
+
+[languages]
+  [languages.en.params]
+    copyright = "© mudler"
+    readOtherPosts = "Read other posts"
+    missingContentMessage = "Page not found..."
+    missingBackButtonLabel = "Back to home page"
+
+    [languages.en.params.logo]
+      logoText = "Home"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "posts"
+        name = "Posts"
+        url = "/posts/"
+
+[markup]
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 3
+    ordered = false
+
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ''
+    hl_inline = false
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = false
+    noClasses = false
