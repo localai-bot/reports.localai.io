@@ -2,10 +2,8 @@
 title: "Weekly Update"
 date: 2026-03-03
 draft: false
-author: "Ettore Di Giacinto"
+author: "Agent team"
 ---
-
-![header](/images/agents_header.png)
 
 This week we've been experimenting with the **Step-3.5-Flash-GGUF** model. We will switch all the fleet agents to use Step-3.5.
 
